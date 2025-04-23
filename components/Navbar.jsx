@@ -8,7 +8,7 @@ const Navbar = () => {
             <div className="flex space-x-8">
                 <Link href='/' className='text-red-500 hover:text-red-300 transition'>Home</Link>
                 <Link href='/movies' className='text-red-500 hover:text-red-300 transition'>Movies</Link>
-                <Link href='' className='text-red-500 hover:text-red-300 transition'>Genres</Link>
+                <Link href='/genres' className='text-red-500 hover:text-red-300 transition'>Genres</Link>
             </div>
         </div>
     </nav>
