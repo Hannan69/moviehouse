@@ -1,5 +1,3 @@
-// File: pages/api/getDirector.js
-
 import path from 'path';
 import { promises as fs } from 'fs';
 
