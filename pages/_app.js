@@ -1,12 +1,14 @@
 import Navbar from '@/components/Navbar';
 import '../styles/globals.css'; 
+import { ThemeProvider } from '@/context/ThemeContext';
 
 export default function App({ Component, pageProps }) {
   return (
-    <>
-  <Navbar />
-    
-  <Component {...pageProps} />
+  <>
+    <ThemeProvider>
+      <Navbar />
+      <Component {...pageProps} />
+    </ThemeProvider>
   </>
   )
 }
